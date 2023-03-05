@@ -1,0 +1,55 @@
+ *{
+    padding: 0;
+    margin: 0;
+ }
+ body{
+    height: 100vh;
+    background: linear-gradient(to right bottom,lightblue,lightpink,lightblue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+ }
+ .container{
+    background-color: rgba(255,255,255,.3);
+    padding:20px ;
+    box-shadow:0 6px 10px rgba(0,0,0,.3) ;
+    width: 85%;
+    border-radius: 2%;
+    text-align: center;
+
+ }
+ .heading{
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: green;
+    text-shadow: 5px 5px 2px rgba(0,0,0,.3) ;
+    letter-spacing: 2px;
+
+ }
+ #joke{
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 500;
+    margin: 40px;
+    line-height: 2;
+ }
+ #btn{
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgba(255,255,255,.3);
+    border-color: rgba(255,255,255,.9);
+    text-transform: uppercase;
+    width: 200px;
+    color: green;
+ }
+ .btn:hover{
+    background-color: rgba(255,255,255,.0);
+    box-shadow: 0 10px 1px rgba(0,0,0,.1);
+    
+ }
